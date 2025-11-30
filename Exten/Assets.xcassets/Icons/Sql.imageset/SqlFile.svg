@@ -1,0 +1,9 @@
+<!-- Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="8" cy="3.60275" rx="5.5" ry="2.10275" stroke="#834DF0"/>
+<path d="M13.5 12.4336C13.5 13.5949 11.0376 14.5363 8 14.5363C4.96243 14.5363 2.5 13.5949 2.5 12.4336" stroke="#834DF0"/>
+<path d="M13.5 9.49042C13.5 10.6517 11.0376 11.5932 8 11.5932C4.96243 11.5932 2.5 10.6517 2.5 9.49042" stroke="#834DF0"/>
+<path d="M13.5 6.54688C13.5 7.70819 11.0376 8.64962 8 8.64962C4.96243 8.64962 2.5 7.70819 2.5 6.54688" stroke="#834DF0"/>
+<path d="M13.5 3.39246V12.5184" stroke="#834DF0"/>
+<path d="M2.5 3.39246V12.5184" stroke="#834DF0"/>
+</svg>

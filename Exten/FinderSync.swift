@@ -18,13 +18,11 @@ class FinderSync: FIFinderSync {
         guard menu == .contextualMenuForContainer else { return nil }
         
         let newMenu = NSMenu()
-        let parentMenuItem = NSMenuItem(title: "Create New File", action: nil, keyEquivalent: "")
-        parentMenuItem.image = NSImage(resource: .addAny)
+        let parentMenuItem = NSMenuItem(title: "New File", action: nil, keyEquivalent: "")
         let submenu = NSMenu()
 
 
         for (index, template) in defaultTemplates.enumerated() {
-            print(index, template.displayName)
             let item = NSMenuItem(title: template.displayName, action: #selector(createFileFromTemplate(_:)), keyEquivalent: "")
             item.tag = index
             item.target = self
@@ -38,8 +36,8 @@ class FinderSync: FIFinderSync {
 
         
         parentMenuItem.submenu = submenu
-        newMenu.addItem(terminalMenuItem)
         newMenu.addItem(parentMenuItem)
+        newMenu.addItem(terminalMenuItem)
         
         return newMenu
     }
